@@ -1,0 +1,25 @@
+{
+  "name": "graphql",
+  "version": "1.0.0",
+  "description": "Movie API with graphQL",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hayoung-jeremy/study_graphQL.git"
+  },
+  "keywords": [
+    "graphQL"
+  ],
+  "author": "Ha Young, Kim",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hayoung-jeremy/study_graphQL/issues"
+  },
+  "homepage": "https://github.com/hayoung-jeremy/study_graphQL#readme",
+  "dependencies": {
+    "graphql-yoga": "^1.18.3"
+  }
+}
