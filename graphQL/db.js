@@ -27,7 +27,7 @@ export const getById = (id) => {
   return filteredMovies[0];
 };
 
-export const deleteMovies = (id) => {
+export const deleteMovie = (id) => {
   const cleanedMovies = movies.filter((movie) => movie.id !== id);
   if (movies.length > cleanedMovies.length) {
     movies = cleanedMovies;
