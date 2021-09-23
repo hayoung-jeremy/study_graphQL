@@ -1,16 +1,17 @@
 {
   "name": "graphql",
   "version": "1.0.0",
-  "description": "Movie API with graphQL",
+  "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon --exec ./node_modules/.bin/babel-node index.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/hayoung-jeremy/study_graphQL.git"
   },
-  "author": "Ha Young Kim",
+  "author": "Ha young, Kim",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/hayoung-jeremy/study_graphQL/issues"
@@ -18,5 +19,12 @@
   "homepage": "https://github.com/hayoung-jeremy/study_graphQL#readme",
   "dependencies": {
     "graphql-yoga": "^1.18.3"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.15.7",
+    "@babel/core": "^7.15.5",
+    "@babel/node": "^7.15.4",
+    "@babel/preset-env": "^7.15.6",
+    "nodemon": "^2.0.12"
   }
 }
